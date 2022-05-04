@@ -1,0 +1,70 @@
+/*                               *\                                    
+    MEDIA QUERIES MOBILE 768px
+\*                               */
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 0 0;
+}
+
+.logo-Booki {
+    height: 75px;
+    width: 150;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+li {
+    margin: 0 15px 0 20px;
+}
+
+ul a:hover {
+    border-bottom: 4px solid #0065FC;
+    border-top: none;
+    text-decoration: none;
+}
+
+/* BARRE DE RECHERCHE */
+
+section {
+    margin: 0 0 0 50px;
+}
+
+.search-bar{
+    display: flex;
+    margin-left: 25%;
+}
+
+.search-button {
+    display: none;
+}
+
+.search-button-mobile{
+    height: 35px;
+    width: 40px;
+    display: block;
+    position: absolute;
+    color: #F2F2F2;
+    background-color: #0065FC;
+    border-radius: 15px;
+    margin-left: 222px;
+
+    
+}
+
+#icon-loupe {
+    color: #F2F2F2;
+    font-size: 25px;
+    display: block;
+    position: absolute;
+    margin-left: 236px ;
+    margin-top: 8px;
+}
