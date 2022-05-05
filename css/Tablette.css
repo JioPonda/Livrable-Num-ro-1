@@ -2,8 +2,8 @@
     MEDIA QUERIES TABLETTE 992
 \*                               */
 
-/* BARRE DE RECHERCHE */
+/* NAVIGATION */
 
-.search-bar{
-    margin-right: 50px;
+nav ul {
+    margin: 0 100px 0 0px;
 }

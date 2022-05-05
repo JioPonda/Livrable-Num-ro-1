@@ -18,7 +18,8 @@
 <body>
     
     <header>     
-            
+
+<!-- NAVIGATION -->
         <nav>
             
             <img class="logo-Booki" src="assets/logo/Booki.png" alt="logo du site Booki">
@@ -30,23 +31,63 @@
 
         </nav>
 
+    <!-- SEARCH ZONE -->
+        
         <section class="search-zone">
+            
             <div class="titre">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
+            
             <form method="post" action="#">
 
                 <p class="search-bar">
+                    
+                    <div>
                     <i id="icon-map" class="fa-solid fa-location-dot"></i>
                     <input class="map-button" type="submit" value=" ">
+                    </div>
+                    
                     <input class="Where" type="search" placeholder="Ou voulez vous allez ?">
-                    <input class="search-button" type="submit" value="   Rechercher">
+                    
+                    <input class="search-button" type="submit" value="   Rechercher  ">
+                    
+                    <div>
                     <input class="search-button-mobile" type="submit" value=" ">
                     <i id="icon-loupe" class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
                 </p>
 
             </form>
+    <!-- FILTERS -->
+            <div class="filters">
+                
+                <h2>Filtres</h2>
+                
+                <div>
+                    <i id="icon-dollars" class="fa-solid fa-money-bill-wave"></i>
+                    <input id="dollars-button" class="filters-button" type= "submit" value="        Économique   ">
+                </div>
+                
+                <div>
+                    <i id="icon-person" class="fa-solid fa-child-reaching"></i>
+                    <input id="family-button" type="submit" value="         Familial   ">
+                </div>
+                
+                <div>
+                <i id="icon-heart" class="fa-solid fa-heart"></i>
+                <input id="heart-button" type="submit" value="          Romantique   ">
+                </div>
+                
+                <div>
+                <i id="icon-dog" class="fa-solid fa-dog"></i>
+                <input id="animals-button" type="submit" value="          Animaux autorisés   ">
+                </div>
+            
+            </div>
+
 
         </section>
 

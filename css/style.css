@@ -42,7 +42,7 @@ ul a:hover {
     text-decoration: none;
 }
 
-/* BARRE DE RECHERCHE */
+/* SEARCH BAR */
 
 section {
     display: flex;
@@ -64,6 +64,7 @@ section input {
     height: 35px;
     width: 50px;
     border-radius: 15px;
+    border-color: gainsboro;
 }
 
 .Where {
@@ -79,6 +80,7 @@ section input {
     margin-left: 220px;
     border-radius: 15px;
     background-color: #0065FC;
+    border-color: #0065FC;
 }
 
 .search-button-mobile {
@@ -95,4 +97,101 @@ section input {
 
 #icon-loupe {
     display: none;
+}
+
+/* FILTERS */
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#icon-dollars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #0065FC;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: gainsboro;
+    margin-left: 15px ;
+}
+
+#dollars-button {
+    height: 45px;
+    background-color: #fff;
+    border-radius: 30px;
+    border-color: gainsboro;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+#icon-person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #0065FC;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: gainsboro;
+    margin-left: 15px ;
+}
+
+#family-button {
+    height: 45px;
+    background-color: #fff;
+    border-radius: 30px;
+    border-color: gainsboro;
+    font-weight: bold;
+    margin-left: 25px;  
+}
+
+#icon-heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #0065FC;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: gainsboro;
+    margin-left: 15px ;
+}
+
+#heart-button {
+    height: 45px;
+    background-color: #fff;
+    border-radius: 30px;
+    border-color: gainsboro;
+    font-weight: bold;  
+    margin-left: 25px;
+}
+
+#icon-dog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #0065FC;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: gainsboro;
+    margin-left: 15px ;
+}
+
+#animals-button {
+    height: 45px;
+    background-color: #fff;
+    border-radius: 30px;
+    border-color: gainsboro;
+    font-weight: bold;
+    margin-left: 25px;  
 }
