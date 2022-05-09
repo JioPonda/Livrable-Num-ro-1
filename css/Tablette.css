@@ -1,5 +1,5 @@
 /*                               *\                                    
-    MEDIA QUERIES TABLETTE 992
+MEDIA QUERIES TABLETTE 992
 \*                               */
 
 /* NAVIGATION */
@@ -8,19 +8,133 @@ nav ul {
     margin: 0 100px 0 0px;
 }
 
+/* LODGING */
+
+#lodging {
+    margin: 0 0 0 35px;
+}
+
+#lodging h2{
+    text-align: center;
+}
+
+.mobil-column {
+    display: flex;
+    flex-direction: row;
+}
+
 .lodging {
     display: flex;
     flex-direction: column;
-    height: auto;
 }
 
 .card-lodging{
-    height: auto;
-    width: 100%;
+    max-width: 900px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color: #f2f2f2;
     border-radius: 15px;
-    padding: 25px;
+}
+
+.card-1:hover {
+    transform: translate(0%,0%) ;
+    transition-duration: 0;
+}
+
+/* POPULAR */
+
+#popular {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 0;
+}
+
+.card-popular {
+    background-color: #f2f2f2;
+    width: 500px;
+}
+
+.card-2:hover {
+    transform: translate(0%,0%) ;
+    transition-duration: 0;
+}
+
+/* ACTIVITY */
+
+#activity {
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 90%;
+    margin-left: 45%;
+}
+
+.card-activity {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 50%;
+}
+
+.card-3-rigth {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+}
+
+.card-3-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 80%;
+    width: 100%;
+    margin-top: 132%;
+    margin-left: 0px;
+}
+
+.card-high {
+    height: 100% ;
+    width: 100% ;
+    margin: 0px auto;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px #999;
+    border-radius: 25px;
+    margin: 0 0 0 0;
+}
+
+.card-high:hover {
+    transform: translate(0%,0%) ;
+    transition-duration: 0;
+}
+
+.card-high h3{
+    margin-left: 5%;
+    margin-top: 3px;
+    font-size: 25px;
+}
+
+.card-img-high-container {
+    width: 100%;
+    height: 85%;
+}
+
+.card-wide-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    margin-top: 280px;
+    margin-left: -26px;
+}
+
+.card-4-img {
+    height: 100% ; 
+    width: 100% ;
+}
+
+.card-wide:hover {
+    transform: translate(0%,0%) ;
+    transition-duration: 0;
 }
