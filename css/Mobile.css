@@ -2,41 +2,64 @@
     MEDIA QUERIES MOBILE 768px
 \*                               */
 
-/* NAVIGATION */
-
-.logo-Booki {
-    height: 100px;
-    width: 150;
-    margin-bottom: 20px;
-    margin-right: 80px;
+body {
+    background-color: #fff;
+    margin-left: -50px;
 }
+
+/* NAVIGATION */
 
 nav {
     display: flex;
     flex-direction: column;
-    margin: 50px 0 0 100px;
-    font-size: 25px;
 }
+
+
+.logo-Booki {
+    height: 100px;
+    width: 200px;
+    margin-top: 20px;
+}
+
 
 ul {
+    width: 100%;
     padding: 0%;
     margin: 0%;
+    
 }
 
-li {
-    margin: 0 15px 0 20px;
+.li-lodging {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.li-activity {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+ul a {
+    padding: 0px 93px 30px 105px;
+    border-bottom: 6px solid #f2f2f2;
 }
 
 ul a:hover {
-    border-bottom: 4px solid #0065FC;
+    border-bottom: 6px solid #0065FC;
     border-top: none;
-    text-decoration: none;
 }
 
 /* BARRE DE RECHERCHE */
 
 .titre h1{
+    margin-top: 70px;
     font-size: 50px;
+}
+
+.titre p {
+    font-style: bold;
+    font-size: 30px;
+    margin-top: -10px;
 }
 
 .search-zone {
@@ -48,13 +71,16 @@ ul a:hover {
 .search-bar{
     display: flex;
     justify-content: center;
+    margin-top: -15px;
 }
 
 .Where {
     position: absolute;
     height: 100px;
     width: 500px;
-    margin-left: 80px;
+    margin-left: 0px;
+    margin-top: 40px;
+    border-color: #F2F2F2;
 }
 
 .search-button {
@@ -64,18 +90,19 @@ ul a:hover {
 .map-button {
     position: absolute;
     height: 100px;
-    width: 100px;
+    width: 150px;
     border-radius: 40px;
-    border-color: gainsboro;
+    border-color: #F2F2F2;
+    margin-left: -350px;
+    margin-top: 40px;
 }
 
 #icon-map {
     color: black;
     position: absolute;
-    font-size: 60px;
-    margin-left: 20px ;
-    margin-top: 22px;
-    z-index: 2;
+    font-size: 40px;
+    margin-left: -315px ;
+    margin-top: 70px;
 }
 
 .search-button-mobile{
@@ -85,24 +112,29 @@ ul a:hover {
     position: absolute;
     color: #F2F2F2;
     background-color: #0065FC;
+    border-color: #0065FC;
     border-radius: 35px;
-    margin-left: 520px;
+    margin-left: 200px;
+    margin-top: 40px;
 }
 
 #icon-loupe {
-    color: #F2F2F2;
-    font-size: 60px;
+    color: #FFF;
+    font-size: 40px;
     display: block;
     position: absolute;
-    margin-left: 545px ;
-    margin-top: 24px;
+    margin-left: 233px ;
+    margin-top: 75px;
 }
 
-
+#infos-head {
+    display: none;
+}
 /* FILTRES */
 
 .filters {
-    margin-top: 50px;
+    margin-top: 650px;
+    margin-left: 0px;
 }
 
 .filters div {
@@ -110,18 +142,26 @@ ul a:hover {
 }
 
 .filters {
+    position: absolute;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
     padding-top: 10%;
 }
 
+.mobile-dolars {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+
 #dollars-button {
-    height: 70px;
+    height: 90px;
+    width: 280px;
     background-color: #fff;
-    border-radius: 30px;
-    border-color: gainsboro;
+    border-radius: 50px;
+    border-color: #F2F2F2;
+    font-size: 30px;
     font-weight: bold;
     margin-left: 25px;
 }
@@ -132,20 +172,27 @@ ul a:hover {
     align-items: center;
     position: absolute;
     font-size: 40px;
-    height: 75px;
-    width: 75px;
-    border-radius: 40px;
-    background-color: gainsboro;
+    height: 95px;
+    width: 95px;
+    border-radius: 50px;
     margin-left: 15px ;
 }
 
+.mobile-family {
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 100px;
+}
+
 #family-button {
-    height: 70px;
+    height: 90px;
+    width: 280px;
     background-color: #fff;
-    border-radius: 30px;
-    border-color: gainsboro;
+    border-radius: 50px;
+    border-color: #F2F2F2;
+    font-size: 30px;
     font-weight: bold;
-    margin-left: 25px;  
+    margin-left: 25px; 
 }
 
 #icon-person {
@@ -154,21 +201,27 @@ ul a:hover {
     align-items: center;
     position: absolute;
     font-size: 40px;
-    height: 75px;
-    width: 75px;
-    border-radius: 40px;
-    background-color: gainsboro;
+    height: 95px;
+    width: 95px;
+    border-radius: 50px;
     margin-left: 15px ;
 }
 
+.mobile-heart {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 180px;
+}
 
 #heart-button {
-    height: 70px;
+    height: 90px;
+    width: 280px;
     background-color: #fff;
-    border-radius: 30px;
-    border-color: gainsboro;
-    font-weight: bold;  
-    margin-left: 25px;
+    border-radius: 50px;
+    border-color: #F2F2F2;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 25px; 
 }
 
 #icon-heart {
@@ -177,10 +230,9 @@ ul a:hover {
     align-items: center;
     position: absolute;
     font-size: 40px;
-    height: 75px;
-    width: 75px;
-    border-radius: 40px;
-    background-color: gainsboro;
+    height: 95px;
+    width: 95px;
+    border-radius: 50px;
     margin-left: 15px ;
 }
 
@@ -189,41 +241,37 @@ ul a:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 75px;
-    width: 75px;
-    border-radius: 40px;
-    background-color: gainsboro;
-    margin-left: 13px ;
+    font-size: 40px;
+    height: 95px;
+    width: 95px;
+    border-radius: 50px;
+    margin-left: 15px ;
+}
+
+.mobile-animal {
+    position:absolute;
+    margin-top: 330px;
+    margin-left: 270px;
 }
 
 #animals-button {
-    height: 70px;
+    height: 90px;
+    width: 350px;
     background-color: #fff;
-    border-radius: 30px;
-    border-color: gainsboro;
+    border-radius: 50px;
+    border-color: #F2F2F2;
+    font-size: 30px;
     font-weight: bold;
-    margin-left: 28px;
-    padding-left: 28px;
+    margin-left: 25px;
 }
 
-#icon-info {
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: gainsboro;
-    border-radius: 40px;
-    margin-top: 28px;
-}
-
-#infos-head p {
-    padding-left: 15px ;
+#lodging {
+    display: none;
 }
 
 /* LODGING */
 
-.mobil-column {
+/* .mobil-column {
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
@@ -242,7 +290,7 @@ ul a:hover {
     height: auto;
     display: flex;
     flex-direction: row;
-    background-color: #f2f2f2;
+    background-color: #FFF;
     border-radius: 15px;
 }
 
@@ -270,17 +318,21 @@ ul a:hover {
 
 .see-more {
     font-size: 20px;
+} */
+
+#popular {
+    display: none;
 }
 
 /* POPULAR */
 
-#popular {
+/* #popular {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 0px;
-    background-color: lightgrey;
+    background-color: #F2F2F2;
 }
 
 
@@ -293,7 +345,7 @@ ul a:hover {
 }
 
 .card-popular {
-    background-color: lightgrey;
+    background-color: #F2F2F2;
 }
 
 .card-2 {
@@ -314,18 +366,20 @@ ul a:hover {
 
 .card-2-infos {
     margin-left: 2%;
+} */
+
+#activity{
+    display: none;
 }
 
 /* ACTIVITY */
 
-/* ACTIVITY */
-
-#activity {
+/* #activity {
     flex-direction: column;
     position: relative;
     justify-content: center;
     align-items: center;
-    margin-top: -15%;
+    margin-top: 150%;
     margin-left: 0;
     width: 100%;
 }
@@ -363,4 +417,4 @@ ul a:hover {
     margin-left: 5%;
     margin-top: 25px;
     font-size: 35px;
-}
+} */

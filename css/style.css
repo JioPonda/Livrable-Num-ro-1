@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Raleway' , sans-serif;
-    background-color: #F2F2F2;
+    background-color: #fff;
 }
 
 a {
@@ -38,13 +38,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 80px 0px;
+    margin: 20px 50px 20px 0px;
 }
 
 .logo-Booki {
-    height: 80px; ;
+    height: 50px; ;
     width: auto;
-    margin-left: 25px;
+    margin-left: 90px;
 }
 
 nav ul {
@@ -53,7 +53,11 @@ nav ul {
 }
 
 nav li {
-    margin : 0 20px;
+    margin : 0px;
+}
+
+ul a {
+    padding: 31px 31px 0px 31px;
 }
 
 ul a:hover {
@@ -61,6 +65,7 @@ ul a:hover {
     border-top: 4px solid #0065FC;
     margin-top: 0px;
     text-decoration: none;
+    transition-duration: 0s;
 }
 
 /* SEARCH BAR */
@@ -82,24 +87,24 @@ section input {
 
 .map-button {
     position: absolute;
-    height: 35px;
-    width: 50px;
-    border-radius: 15px;
-    border-color: gainsboro;
+    height: 50px;
+    width: 70px;
+    border-radius: 20px;
+    border-color: #F2F2F2;
 }
 
 .Where {
     position: absolute;
-    height: 35px;
+    height: 50px;
     margin-left: 50px;
 }
 
 .search-button {
     color: #F2F2F2;
-    font-size: 20px;
-    height: 35px ;
+    font-size: 25px;
+    height: 50px ;
     margin-left: 220px;
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: #0065FC;
     border-color: #0065FC;
 }
@@ -113,7 +118,7 @@ section input {
     position: absolute;
     font-size: 20px;
     margin-left: 18px ;
-    margin-top: 10px;
+    margin-top: 18px;
     z-index: 2;
 }
 
@@ -138,7 +143,7 @@ section input {
     height: 50px;
     width: 50px;
     border-radius: 30px;
-    background-color: gainsboro;
+    background-color: #DEEBFF;
     margin-left: 22px ;
 }
 
@@ -146,9 +151,15 @@ section input {
     height: 45px;
     background-color: #fff;
     border-radius: 30px;
-    border-color: gainsboro;
+    border-color: #F2F2F2;
     font-weight: bold;
     margin-left: 25px;
+}
+
+#dollars-button:hover{
+    background-color: #0065FC;
+    border-color: #0065FC;
+    color: #fff;
 }
 
 #icon-person {
@@ -159,7 +170,7 @@ section input {
     height: 50px;
     width: 50px;
     border-radius: 30px;
-    background-color: gainsboro;
+    background-color: #DEEBFF;
     margin-left: 22px ;
 }
 
@@ -167,9 +178,15 @@ section input {
     height: 45px;
     background-color: #fff;
     border-radius: 30px;
-    border-color: gainsboro;
+    border-color: #F2F2F2;
     font-weight: bold;
     margin-left: 25px;  
+}
+
+#family-button:hover {
+    background-color: #0065FC;
+    border-color: #0065FC;
+    color: #fff;
 }
 
 #icon-heart {
@@ -180,7 +197,7 @@ section input {
     height: 50px;
     width: 50px;
     border-radius: 30px;
-    background-color: gainsboro;
+    background-color: #DEEBFF;
     margin-left: 22px ;
 }
 
@@ -188,9 +205,15 @@ section input {
     height: 45px;
     background-color: #fff;
     border-radius: 30px;
-    border-color: gainsboro;
+    border-color: #F2F2F2;
     font-weight: bold;  
     margin-left: 25px;
+}
+
+#heart-button:hover {
+    background-color: #0065FC;
+    border-color: #0065FC;
+    color: #fff;
 }
 
 #icon-dog {
@@ -201,7 +224,7 @@ section input {
     height: 50px;
     width: 50px;
     border-radius: 30px;
-    background-color: gainsboro;
+    background-color: #DEEBFF;
     margin-left: 22px ;
 }
 
@@ -209,10 +232,16 @@ section input {
     height: 45px;
     background-color: #fff;
     border-radius: 30px;
-    border-color: gainsboro;
+    border-color: #F2F2F2;
     font-weight: bold;
     margin-left: 28px;
     padding-left: 28px;
+}
+
+#animals-button:hover {
+    background-color: #0065FC;
+    border-color: #0065FC;
+    color: #fff;
 }
 
 #infos-head {
@@ -226,8 +255,8 @@ section input {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gainsboro;
-    border-radius: 20px;
+    background-color: #DEEBFF;
+    border-radius: 15px;
     margin-top: 10px;
 }
 
@@ -242,6 +271,16 @@ section input {
     flex-direction: row;
 }
 
+#lodging {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
 
 .card-lodging{
     height: auto;
@@ -250,7 +289,7 @@ section input {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: lightgrey;
+    background-color: #F2F2F2;
     border-radius: 15px;
 }
 
@@ -305,7 +344,10 @@ section input {
 
 .see-more{
     font-weight: bold;
+    font-size: 25px;
     margin-top: 10px;
+    margin-right: 950px;
+    margin-bottom: 10px;
 }
 
 /* POPULAR */
@@ -313,7 +355,13 @@ section input {
 #popular {
     display: flex;
     flex-direction: column;
-    padding-right: 5%;
+    margin-right: 5%;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    width: 30%;
 }
 
 .popular-title {
@@ -324,6 +372,7 @@ section input {
 }
 
 #black-star {
+    margin-left: 180px;
     color: black;
 }
 
@@ -333,8 +382,7 @@ section input {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    background-color: lightgrey;
-    width: 100%;
+    background-color: #F2F2F2;
 }
 
 .card-2 {
@@ -363,7 +411,6 @@ section input {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* object-fit: fill; */
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -379,6 +426,7 @@ section input {
 /* ACTIVITY */
 
 #activity {
+    margin-top: 25px;
     height: 700px;
     width: 50%;
     display: flex;
@@ -460,7 +508,7 @@ section input {
     background-color: #fff;
     box-shadow: 0px 5px 20px #999;
     border-radius: 25px;
-    margin: 25px 10px 10px 25px ;
+    margin: 10px 10px 60px 25px ;
 }
 
 .card-wide:hover {

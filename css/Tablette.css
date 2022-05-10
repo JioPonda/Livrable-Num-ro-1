@@ -5,17 +5,29 @@ MEDIA QUERIES TABLETTE 992
 /* NAVIGATION */
 
 nav ul {
-    margin: 0 100px 0 0px;
+    margin: 0 0px 0 0px;
+}
+
+ul a:hover {
+    color: #0065FC;
+    border-top: 4px solid #0065FC;
+    margin-top: 0px;
+    text-decoration: none;
+    transition-duration: 0s;
 }
 
 /* LODGING */
 
 #lodging {
-    margin: 0 0 0 35px;
+    position: absolute;
+    margin: 0 0 0 0px;
+    background-color: #fff;
+    margin-left: 25px;
 }
 
-#lodging h2{
-    text-align: center;
+#lodging h2 {
+        margin-right: 530px;
+        margin-top: 30px;
 }
 
 .mobil-column {
@@ -26,14 +38,15 @@ nav ul {
 .lodging {
     display: flex;
     flex-direction: column;
+    background-color: #fff;
 }
 
 .card-lodging{
-    max-width: 900px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #f2f2f2;
+    background-color: #fff;
     border-radius: 15px;
 }
 
@@ -42,16 +55,30 @@ nav ul {
     transition-duration: 0;
 }
 
+.see-more{
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 530px;
+}
+
 /* POPULAR */
 
 #popular {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    padding: 0 0 0 0;
+    margin-bottom: 1600px;
+    margin-left: 450px;
+    background-color: #fff;
+    width: 50%;
+}
+
+.popular-title {
+    margin-bottom: 3px;
 }
 
 .card-popular {
-    background-color: #f2f2f2;
+    background-color: #fff;
     width: 500px;
 }
 
@@ -67,7 +94,7 @@ nav ul {
     flex-wrap: wrap;
     position: absolute;
     margin-top: 90%;
-    margin-left: 45%;
+    margin-left: 48%;
 }
 
 .card-activity {
