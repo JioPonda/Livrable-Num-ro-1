@@ -26,8 +26,8 @@ ul a:hover {
 }
 
 #lodging h2 {
-        margin-right: 530px;
-        margin-top: 30px;
+    margin-right: 530px;
+    margin-top: 30px;
 }
 
 .mobil-column {
@@ -52,7 +52,7 @@ ul a:hover {
 
 .card-1:hover {
     transform: translate(0%,0%) ;
-    transition-duration: 0;
+    transition-duration: 0s;
 }
 
 .see-more{
@@ -68,7 +68,7 @@ ul a:hover {
     display: flex;
     flex-direction: column;
     margin-bottom: 1600px;
-    margin-left: 450px;
+    margin-left: 460px;
     background-color: #fff;
     width: 50%;
 }
@@ -84,7 +84,7 @@ ul a:hover {
 
 .card-2:hover {
     transform: translate(0%,0%) ;
-    transition-duration: 0;
+    transition-duration: 0s;
 }
 
 /* ACTIVITY */
@@ -94,7 +94,7 @@ ul a:hover {
     flex-wrap: wrap;
     position: absolute;
     margin-top: 90%;
-    margin-left: 48%;
+    margin-left: 47%;
 }
 
 .card-activity {
@@ -116,7 +116,7 @@ ul a:hover {
     flex-wrap: nowrap;
     height: 80%;
     width: 100%;
-    margin-top: 132%;
+    margin-top: 121%;
     margin-left: 0px;
 }
 
@@ -127,12 +127,11 @@ ul a:hover {
     background-color: #fff;
     box-shadow: 0px 5px 20px #999;
     border-radius: 25px;
-    margin: 0 0 0 0;
 }
 
 .card-high:hover {
     transform: translate(0%,0%) ;
-    transition-duration: 0;
+    transition-duration: 0s;
 }
 
 .card-high h3{
@@ -144,6 +143,10 @@ ul a:hover {
 .card-img-high-container {
     width: 100%;
     height: 85%;
+}
+
+.card-wide {
+    margin: 10px 10px 5px 25px ;
 }
 
 .card-wide-container{
@@ -163,5 +166,52 @@ ul a:hover {
 
 .card-wide:hover {
     transform: translate(0%,0%) ;
-    transition-duration: 0;
+    transition-duration: 0s;
+}
+
+/* FOOTER */
+
+#footer-page {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 2750px;
+}
+
+.foot-info-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.foot-info-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.foot-info-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
 }

@@ -56,11 +56,11 @@ nav li {
     margin : 0px;
 }
 
-ul a {
+nav ul a {
     padding: 31px 31px 0px 31px;
 }
 
-ul a:hover {
+nav ul a:hover {
     color: #0065FC;
     border-top: 4px solid #0065FC;
     margin-top: 0px;
@@ -133,6 +133,11 @@ section input {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 20px;
+}
+
+.mobile-dolars {
+    margin: 0 10px 0 10px;
 }
 
 #icon-dollars {
@@ -140,19 +145,21 @@ section input {
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     border-radius: 30px;
     background-color: #DEEBFF;
     margin-left: 22px ;
 }
 
 #dollars-button {
-    height: 45px;
+    height: 50px;
+    width: 200px;
     background-color: #fff;
     border-radius: 30px;
     border-color: #F2F2F2;
     font-weight: bold;
+    font-size: 20px;
     margin-left: 25px;
 }
 
@@ -162,25 +169,31 @@ section input {
     color: #fff;
 }
 
+.mobile-family {
+    margin: 0 10px 0 10px;
+}
+
 #icon-person {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     border-radius: 30px;
     background-color: #DEEBFF;
     margin-left: 22px ;
 }
 
 #family-button {
-    height: 45px;
+    height: 50px;
+    width: 180px;
     background-color: #fff;
     border-radius: 30px;
     border-color: #F2F2F2;
     font-weight: bold;
-    margin-left: 25px;  
+    font-size: 20px;
+    margin-left: 25px;
 }
 
 #family-button:hover {
@@ -189,24 +202,30 @@ section input {
     color: #fff;
 }
 
+.mobile-heart {
+    margin: 0 10px 0 10px;
+}
+
 #icon-heart {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     border-radius: 30px;
     background-color: #DEEBFF;
     margin-left: 22px ;
 }
 
 #heart-button {
-    height: 45px;
+    height: 50px;
+    width: 200px;
     background-color: #fff;
     border-radius: 30px;
     border-color: #F2F2F2;
-    font-weight: bold;  
+    font-weight: bold;
+    font-size: 20px;
     margin-left: 25px;
 }
 
@@ -216,26 +235,31 @@ section input {
     color: #fff;
 }
 
+.mobile-heart {
+    margin: 0 10px 0 10px;
+}
+
 #icon-dog {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     border-radius: 30px;
     background-color: #DEEBFF;
     margin-left: 22px ;
 }
 
 #animals-button {
-    height: 45px;
+    height: 50px;
+    width: 280px;
     background-color: #fff;
     border-radius: 30px;
     border-color: #F2F2F2;
     font-weight: bold;
-    margin-left: 28px;
-    padding-left: 28px;
+    font-size: 20px;
+    margin-left: 25px;
 }
 
 #animals-button:hover {
@@ -255,7 +279,7 @@ section input {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #DEEBFF;
+    border: solid #F2F2F2;
     border-radius: 15px;
     margin-top: 10px;
 }
@@ -535,4 +559,76 @@ section input {
     margin-left: 5%;
     margin-top: 10px;
     font-size: 25px;
+}
+
+/* FOOTER */
+
+#footer-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f2f2f2;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+
+.foot-info-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 250px;
+}
+.foot-info-1 ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.foot-info ul a:hover {
+    transition-duration: 0s;
+}
+
+.foot-info-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 250px;
+}
+.foot-info-2 ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.foot-info-2 ul a:hover {
+    transition-duration: 0s;
+}
+
+.foot-info-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 250px;
+}
+.foot-info-3 ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.foot-info-3 ul a:hover {
+    transition-duration: 0s;
 }
