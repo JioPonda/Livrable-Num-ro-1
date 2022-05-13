@@ -2,6 +2,11 @@
 MEDIA QUERIES TABLETTE 992
 \*                               */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway' , sans-serif;
+}
 /* NAVIGATION */
 
 nav ul {

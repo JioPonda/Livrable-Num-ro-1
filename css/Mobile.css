@@ -2,8 +2,11 @@
     MEDIA QUERIES MOBILE 768px
 \*                               */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
 body {
-    background-color: #fff;
+    font-family: 'Raleway' , sans-serif;
     margin-left: -50px;
 }
 
