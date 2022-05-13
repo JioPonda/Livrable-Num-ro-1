@@ -99,6 +99,12 @@ section input {
     margin-left: 50px;
 }
 
+/* @-moz-index {
+    .search-button {
+        margin-left : 250px ;
+    }
+  } */
+
 .search-button {
     color: #F2F2F2;
     font-size: 25px;
@@ -577,8 +583,6 @@ section input {
 .foot-info-1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     font-size: 20px;
     margin-top: 50px;
     margin-left: 100px;
@@ -597,8 +601,6 @@ section input {
 .foot-info-2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     font-size: 20px;
     margin-top: 50px;
     margin-left: 100px;
@@ -617,8 +619,6 @@ section input {
 .foot-info-3 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     font-size: 20px;
     margin-top: 50px;
     margin-left: 100px;
